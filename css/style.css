@@ -32,6 +32,17 @@ p {
     text-decoration: none;
 }
 
+.btn {
+    display: inline;
+    background-color: #93cb52;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: cyan;
+}
 #navbar ul {
     display: flex;
     list-style: none;
@@ -57,3 +68,20 @@ p {
     padding: 0 2rem;
     background-color: rgba(0,0,0,1);
 }
+
+.source {
+    font-size: small;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #aaa;
+    margin: 10px 20px;
+}
+
+.source a {
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.py1 {}
+.py2 {}
+.py3 {}
