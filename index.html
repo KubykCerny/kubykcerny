@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"    content="Stránka se bude věnovat projektu zabývající se Motorkama">
+    <meta name="keywords" content="Motorcycles, Ducati">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/widescreen.css" media="screen and (min-width: 1100px)">
+    <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Moto</title>
+</head>
+<body id="home">
+<nav id="navbar">
+    <div id="logo"><a href="index.html"><i class="fa-solid fa-motorcycle"></i>
+        <span class="text-primary">Ducati</span></a></div>
+
+    <a href="#" id="hambac"><i class="fa fa-bars fa-2x"></i></a>
+    <ul>
+        <li><a href="#home">Úvod </a></li>
+        <li><a href="#what"> O </a></li>
+        <li><a href="#project">Typy motocyklů </a></li>
+        <li><a href="#contact">Contact </a></li>
+    </ul>
+</nav>
+<div id="showcase">
+    <div class="showcase-content">
+        <h1 class="l-heading">Milujeme <span class="text-primary">motocykly</span></h1>
+        <p class="lead">
+            Naší vášní je dělat špičkové motockly nejvyšší kvality
+        </p>
+        <a href="#what" class="btn">Dozvědět se víc</a>
+    </div>
+</div>
+
+<section id="what" class="bg-light py-1">
+    <div class="container">
+        <h2 class="m-heading text-center">
+            <span class="text-primary">Co</span>
+            děláme
+        </h2>
+        <div class="items">
+            <div class="item">
+                <i class="fa-solid fa-motorcycle"></i>
+                <div>
+                    <h3>Motocykly</h3>
+                    <p>Máme široký výběr motocyklů a různé typy motocyklů</p>
+                </div>
+            </div>
+            <div class="item">
+                <i class="fa-solid fa-motorcycle"></i>
+                <div>
+                    <h3>Motory</h3>
+                    <p>Naše vysoce propracované motory jsou nejlepší na trhu</p>
+                </div>
+            </div>
+            <div class="item">
+                <i class="fa-solid fa-motorcycle"></i>
+                <div>
+                    <h3>Typy motorek</h3>
+                    <p>Je na výběr ze všech tříd, na které si pomyslíte</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="project">
+    <div class="project-img"></div>
+    <div class="project-text bg-dark p-2">
+        <h2 class="m-heading">Typy <span class="text-primary">motorek</span></h2>
+        <p>Zde se můžete podívat na všechny typy které máme</p>
+        <h3>Typy</h3>
+        <ul class="list">
+            <li>Supersport</li>
+            <li>Sport</li>
+            <li>Adventure</li>
+            <li>Cestovní</li>
+            <li>Cruiser</li>
+            <li>Supermoto</li>
+        </ul>
+    </div>
+
+</section>
+
+<section id="images" class="py2">
+    <div class="container">
+        <h2 class="m-heading text-center">Ilustrační <span class="text-primary">Obrázky</span></h2>
+
+        <div class="items py1">
+            <div><img src="https://source.unsplash.com/random/180x300/?ducati"  alt="ilustrační obrázek"></div>
+            <div><img src="https://source.unsplash.com/random/180x300/?ducati" alt="ilustrační obrázek"></div>
+            <div><img src="https://source.unsplash.com/random/180x300/?ducati" alt="ilustrační obrázek"></div>
+            <div><img src="https://source.unsplash.com/random/180x300/?ducati" alt="ilustrační obrázek"></div>
+            <div><img src="https://source.unsplash.com/random/180x300/?ducati" alt="ilustrační obrázek"></div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact-form bg-primary p-2">
+        <h2 class="m-heading">Napište nám</h2>
+        <p>Prosím využijte níže uvedený formulář</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Jméno</label>
+                <input type="text"
+                       name="name"
+                       id="name"
+                        placeholder="jméno a příjmení">
+            </div>
+
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="text"
+                       name="Email"
+                       id="Email"
+                       placeholder="e-mail">
+            </div>
+
+            <div class="form-group">
+                <label for="Phone">Telefon</label>
+                <input type="text"
+                       name="Phone"
+                       id="Phone"
+                       placeholder="telefon">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Zpráva</label>
+                <textarea name="message"
+                          id="message"
+                          cols="30"
+                          rows="10"
+                placeholder="zpráva"></textarea>
+            </div>
+
+            <button type="submit" class="btn-dark">Odeslat </button>
+
+
+
+        </form>
+    </div>
+    <div class="contact-adress bg-dark p-2">
+        <h2 class="m-heading">Kontakt</h2>
+        <h3>Adresa instituce</h3>
+        <ul class="list">
+            <li>pol1</li>
+            <li>pol1</li>
+            <li>pol1</li>
+        </ul>
+        <h3>Email</h3>
+        <ul class="list">
+            <li>email</li>
+        </ul>
+        <h3>Telefon</h3>
+        <ul class="list">
+            <li>Telefon</li>
+        </ul>
+    </div>
+</section>
+
+<footer id="main-footer" class="bg-dark text-center py1">
+    <div class="container">
+        <p>Coppyright &copy; 2022 Jakub Černý</p>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $('#navbar #hambac').click(function (){
+        $('#navbar ul').slideToggle("slow")
+    });
+
+    if ($(window).width() < 501 ) {
+        $('#navbar ul').click(function (){
+            $('#navbar ul').hide();
+        });
+    }
+
+
+    // Smooth scrolling
+    $('#navbar a, .btn').on('click', function (event) {
+        if (this.hash !== '') {
+            event.preventDefault();
+            const hash = this.hash;
+            $('html, body').animate(
+                {
+                    scrollTop: $(hash).offset().top - 260
+                }, 800
+            )
+        }
+    })
+
+
+    var nav_sections = $('section');
+    var main_nav = $('#navbar li, .mobile-nav');
+
+    $(window).on('scroll', function() {
+
+        var cur_pos = $(this).scrollTop() + 200;
+
+        // Menu Opacity on scrolling and hidding source
+
+        if (cur_pos > 350) {
+            document.querySelector('#navbar').style.opacity = 0.9;
+           // document.querySelector('#showcase .source').style.display = "none";
+        }
+        else {
+            document.querySelector('#navbar').style.opacity = 1;
+           // document.querySelector('#showcase .source').style.display = "block";
+        }
+
+        // Navigation active state on scroll
+
+        nav_sections.each(function() {
+            var top = $(this).offset().top,
+                bottom = top + $(this).outerHeight();
+
+            if (cur_pos >= top && cur_pos <= bottom) {
+                if (cur_pos <= bottom) {
+                    main_nav.find('a').removeClass('active');
+                }
+                main_nav.find('a[href="#' + $(this).attr('id') + '"]').addClass('active');
+            }
+
+            if (cur_pos < 300) {
+                $("#navbar ul li a").removeClass('active');
+            }
+        });
+    });
+</script>
+</body>
+</html>
